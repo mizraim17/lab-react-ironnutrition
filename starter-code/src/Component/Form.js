@@ -9,7 +9,7 @@ const Form = ({handleChange,handleSubmit,form}) => (
         <div className="control">
           <input
             name="name"
-            value={form.name}
+            // value={form.name}
             className="input"
             onChange={handleChange}
             type="text"
@@ -21,7 +21,7 @@ const Form = ({handleChange,handleSubmit,form}) => (
         <div className="control">
         <input
           name="calories"
-          value={form.calories}
+          // value={form.calories}
           className="input"
           onChange={handleChange}
           type="number"
@@ -35,7 +35,7 @@ const Form = ({handleChange,handleSubmit,form}) => (
         <div className="control">
           <input
             name="image"
-            value={form.image}
+            // value={form.image}
             onChange={handleChange}
             className="input"
             type="text"

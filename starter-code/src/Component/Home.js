@@ -37,7 +37,7 @@ class Home extends Component {
     this.setState({form})
   };
 
-  search= (e) => {
+  arch= (e) => {
     let {word} =this.state;
     word = e.target.value;
     this.setState({word})
